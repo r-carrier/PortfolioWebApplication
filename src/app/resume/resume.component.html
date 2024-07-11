@@ -1,0 +1,13 @@
+<div class="surface-card p-4 shadow-2 border-round">
+  <div class="text-3xl font-medium text-900 mb-3">Resume</div>
+  <div style="height: 150px; padding: 10px; height: 100vh; width: 100%;" class="border-2 border-solid surface-border">
+    <ngx-extended-pdf-viewer
+      [src]="pdfSrc"
+      [height]="'auto'"
+      [textLayer]="true"
+      [showHandToolButton]="true"
+      [filenameForDownload]="'Resume.pdf'">
+    </ngx-extended-pdf-viewer>
+
+  </div>
+</div>
